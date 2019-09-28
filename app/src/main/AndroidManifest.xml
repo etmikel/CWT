@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trustinabreeze">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".contact3"
+            android:label="@string/title_activity_contact3"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".editCon2"
+            android:label="@string/title_activity_edit_con2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".contactPage2"
+            android:label="@string/title_activity_contact_page2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".editcont2"
+            android:label="@string/title_activity_editcont2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".editContact2"
+            android:label="@string/title_activity_edit_contact2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".editContact"
+            android:label="@string/title_activity_edit_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".contactInfo"
+            android:label="@string/title_activity_contact_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Contacts"
+            android:label="@string/title_activity_contacts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".personInfo"
+            android:label="@string/title_activity_person_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainPage2"
+            android:label="@string/title_activity_main_page2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginScreen"
+            android:label="@string/title_activity_login_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

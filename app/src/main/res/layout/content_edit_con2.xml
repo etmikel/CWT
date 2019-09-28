@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".editCon2"
+    tools:showIn="@layout/activity_edit_con2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Edit Contacts"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="303dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="---------------------------------------"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="139dp"
+        tools:srcCompat="@tools:sample/avatars[12]" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name: Uncle Cat"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username: smellycat"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Button
+        android:id="@+id/logoutbutton"
+        android:layout_width="125dp"
+        android:layout_height="53dp"
+        android:text="Back"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="125dp"
+        android:layout_height="53dp"
+        android:text="Save"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="403dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Custom Message"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="403dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="---------------------------------------"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Number: (515) 678 - 4500"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
